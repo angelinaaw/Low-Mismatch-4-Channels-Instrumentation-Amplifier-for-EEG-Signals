@@ -142,56 +142,56 @@ N 880 -1270 1010 -1270 {lab=GND}
 N 1010 -1430 1010 -1410 {lab=#net4}
 N 1220 -1460 1220 -1410 {lab=#net4}
 N 1260 -1430 1260 -1410 {lab=_CLK1}
-N 790 -590 890 -590 {lab=#net5}
-N 890 -590 890 -520 {lab=#net5}
-N 950 -590 950 -520 {lab=#net6}
+N 790 -590 890 -590 {lab=in1}
+N 890 -590 890 -520 {lab=in1}
+N 950 -590 950 -520 {lab=#net5}
 N 920 -650 920 -600 {lab=GND}
 N 920 -560 920 -520 {lab=VDD}
 N 920 -740 920 -690 {lab=_CLK}
 N 920 -480 920 -380 {lab=CLK}
-N 950 -590 1120 -590 {lab=#net6}
-N 950 -280 950 -210 {lab=#net7}
-N 890 -280 890 -210 {lab=#net8}
+N 950 -590 1120 -590 {lab=#net5}
+N 950 -280 950 -210 {lab=#net6}
+N 890 -280 890 -210 {lab=in2}
 N 920 -260 920 -210 {lab=GND}
 N 920 -340 920 -300 {lab=VDD}
 N 920 -170 920 -120 {lab=_CLK}
-N 790 -280 890 -280 {lab=#net8}
-N 950 -280 1120 -280 {lab=#net7}
-N 1120 -280 1270 -280 {lab=#net7}
-N 1120 -590 1270 -590 {lab=#net6}
-N 1390 -590 1390 -520 {lab=#net6}
-N 1450 -590 1450 -520 {lab=#net9}
+N 790 -280 890 -280 {lab=in2}
+N 950 -280 1120 -280 {lab=#net6}
+N 1120 -280 1270 -280 {lab=#net6}
+N 1120 -590 1270 -590 {lab=#net5}
+N 1390 -590 1390 -520 {lab=#net5}
+N 1450 -590 1450 -520 {lab=#net7}
 N 1420 -650 1420 -600 {lab=GND}
 N 1420 -560 1420 -520 {lab=VDD}
 N 1420 -740 1420 -690 {lab=CLK1}
 N 1420 -480 1420 -380 {lab=_CLK1}
-N 1450 -590 1570 -590 {lab=#net9}
-N 1450 -280 1450 -210 {lab=#net10}
-N 1390 -280 1390 -210 {lab=#net7}
+N 1450 -590 1570 -590 {lab=#net7}
+N 1450 -280 1450 -210 {lab=#net8}
+N 1390 -280 1390 -210 {lab=#net6}
 N 1420 -260 1420 -210 {lab=GND}
 N 1420 -340 1420 -300 {lab=VDD}
 N 1420 -170 1420 -120 {lab=CLK1}
-N 1270 -590 1390 -590 {lab=#net6}
-N 1270 -280 1390 -280 {lab=#net7}
-N 1450 -280 1570 -280 {lab=#net10}
-N 1570 -590 1570 -450 {lab=#net9}
-N 1120 -590 1120 -450 {lab=#net6}
-N 1270 -590 1270 -450 {lab=#net6}
-N 1120 -390 1120 -280 {lab=#net7}
-N 1270 -390 1270 -280 {lab=#net7}
-N 1570 -390 1570 -280 {lab=#net10}
-N 1570 -280 1950 -280 {lab=#net10}
-N 1570 -590 1930 -590 {lab=#net9}
-N 890 -650 890 -590 {lab=#net5}
-N 950 -650 950 -590 {lab=#net6}
-N 890 -340 890 -280 {lab=#net8}
-N 950 -340 950 -280 {lab=#net7}
-N 1450 -650 1450 -590 {lab=#net9}
-N 1390 -650 1390 -590 {lab=#net6}
-N 1390 -340 1390 -280 {lab=#net7}
-N 1450 -340 1450 -280 {lab=#net10}
-N 790 -590 790 -570 {lab=#net5}
-N 790 -280 790 -240 {lab=#net8}
+N 1270 -590 1390 -590 {lab=#net5}
+N 1270 -280 1390 -280 {lab=#net6}
+N 1450 -280 1570 -280 {lab=#net8}
+N 1570 -590 1570 -450 {lab=#net7}
+N 1120 -590 1120 -450 {lab=#net5}
+N 1270 -590 1270 -450 {lab=#net5}
+N 1120 -390 1120 -280 {lab=#net6}
+N 1270 -390 1270 -280 {lab=#net6}
+N 1570 -390 1570 -280 {lab=#net8}
+N 1570 -280 1950 -280 {lab=#net8}
+N 1570 -590 1930 -590 {lab=#net7}
+N 890 -650 890 -590 {lab=in1}
+N 950 -650 950 -590 {lab=#net5}
+N 890 -340 890 -280 {lab=in2}
+N 950 -340 950 -280 {lab=#net6}
+N 1450 -650 1450 -590 {lab=#net7}
+N 1390 -650 1390 -590 {lab=#net5}
+N 1390 -340 1390 -280 {lab=#net6}
+N 1450 -340 1450 -280 {lab=#net8}
+N 790 -590 790 -570 {lab=in1}
+N 790 -280 790 -240 {lab=in2}
 C {lab_wire.sym} 570 -1420 0 0 {name=p20 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 570 -1350 0 0 {name=p21 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 960 -1060 0 0 {name=p24 sig_type=std_logic lab=CLK}
@@ -215,7 +215,7 @@ value="
 	* -- AC ANALYSIS ---
 	* .ac dec 20 1 1e9
 	* -- TRANSIENT --
-	.tran 8m 0.144
+	.tran 8m 0.144 0 10u
 .control
 	* Ac sweep
 *	ac
@@ -518,3 +518,5 @@ C {gnd.sym} 920 -600 0 0 {name=l15 lab=GND}
 C {gnd.sym} 1420 -600 0 0 {name=l16 lab=GND}
 C {gnd.sym} 1420 -260 2 0 {name=l17 lab=GND}
 C {gnd.sym} 920 -260 2 0 {name=l18 lab=GND}
+C {lab_wire.sym} 820 -590 0 0 {name=p1 sig_type=std_logic lab=in1}
+C {lab_wire.sym} 820 -280 0 0 {name=p4 sig_type=std_logic lab=in2}
