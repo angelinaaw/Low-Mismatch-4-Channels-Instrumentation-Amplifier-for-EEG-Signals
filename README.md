@@ -8,7 +8,7 @@
 
 ### **1. Functionality and Target Specifications**
 
-This chip is a high-precision, low-mismatch instrumentation amplifier array specifically designed for multichannel Electroencephalography (EEG) signal measurement. It employs a **group-chopping technique** in which multiple chopper switches (MOSFETs) are cascaded to sequentially exchange differential input signals across channels. This cyclic routing allows each input to be amplified by every amplifier in the array, effectively averaging out gain mismatches. 
+This chip is a high-precision, low-mismatch instrumentation amplifier array specifically designed for multichannel Electroencephalography (EEG) signal measurement. It employs a **group-chopping technique** in which multiple chopper switches (MOSFETs) are cascaded to sequentially exchange differential input signals across channels. This cyclic routing allows each input to be amplified by every amplifier in the array, effectively averaging out gain mismatches.
 
 Additionally, input-referred DC offset is mitigated through chopper modulation and demodulation, which shifts low-frequency noise and offset to higher frequencies where they are easily filtered out. As a result, amplification across all channels becomes uniform and virtually free from bias. The design is implemented using the **IHP SG13G2 open-source PDK**, a 130 nm process technology selected for its high-precision analog capabilities and excellent component matching.
 
@@ -82,7 +82,7 @@ The chopper switch is implemented to reduce low-frequency (1/f) noise and input 
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Chopper%20Switch-007EC6?style=for-the-badge&logo=github&logoColor=white)](Schematics%20&%20Results/Chopper%20Switch)
+[![Chopper Switch](https://img.shields.io/badge/Progress_Log-Chopper%20Switch-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Chopper%20Switch)
 
 ---
 
@@ -113,7 +113,7 @@ An open-loop amplifier provides high gain for low-amplitude EEG signals while mi
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Instrumentation%20Amplifier-007EC6?style=for-the-badge&logo=github&logoColor=white)](Instrumentation%20Amplifier)
+[![Instrumentation Amplifier](https://img.shields.io/badge/Progress_Log-Instrumentation%20Amplifier-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Instrumentation%20Amplifier)
 
 ---
 
@@ -138,7 +138,7 @@ The switched-capacitor low-pass filter removes high-frequency components after c
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Switched--Cap%20LPF-007EC6?style=for-the-badge&logo=github&logoColor=white)](Switched-Cap%20Low%20Pass%20Filter)
+[![Switched-Cap LPF](https://img.shields.io/badge/Progress_Log-Switched--Cap%20LPF-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Switched-Cap%20Low%20Pass%20Filter)
 
 ---
 
@@ -166,7 +166,7 @@ To validate the system, a realistic dummy EEG signal is constructed using data f
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-EEG%20Dummy%20Signal-007EC6?style=for-the-badge&logo=github&logoColor=white)](EEG%20Dummy%20Signal)
+[![EEG Dummy Signal](https://img.shields.io/badge/Progress_Log-EEG%20Dummy%20Signal-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/EEG%20Dummy%20Signal)
 
 ---
 
@@ -192,7 +192,7 @@ The frequency divider generates synchronized clock signals (f, f/2, f/4) for the
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Frequency%20Divider-007EC6?style=for-the-badge&logo=github&logoColor=white)](Frequency%20Divider)
+[![Frequency Divider](https://img.shields.io/badge/Progress_Log-Frequency%20Divider-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Frequency%20Divider)
 
 ---
 
@@ -206,7 +206,7 @@ An optional unity-gain analog buffer is inserted at the output to drive external
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Buffer%20%26%20Biasing-007EC6?style=for-the-badge&logo=github&logoColor=white)](Buffer)
+[![Buffer](https://img.shields.io/badge/Progress_Log-Buffer%20%26%20Biasing-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Buffer)
 
 ---
 
@@ -248,19 +248,19 @@ The system amplifies 4-channel biopotential signals. The circuit uses a **Three-
 
 * **Phase 1 (CSa Only):** Direct signal path.
     * Ch1 → INA1, Ch2 → INA2, etc.
-    * ![Phase1](Images/Phase1.jpg)
+    <p align="center"><img src="Images/Phase1.jpg" width="300"></p>
 
 * **Phase 2 (CSb ON):** Swap adjacent pairs.
     * Ch1 → INA2, Ch2 → INA1.
-    * ![Phase2](Images/Phase2.jpg)
+    <p align="center"><img src="Images/Phase2.jpg" width="300"></p>
 
 * **Phase 3 (CSc ON, CSb OFF):** Swap alternate pairs.
     * Ch1 → INA3, Ch3 → INA1.
-    * ![Phase3](Images/Phase3.jpg)
+    <p align="center"><img src="Images/Phase3.jpg" width="300"></p>
 
 * **Phase 4 (CSb & CSc ON):** Cross-pair swap.
     * Ch1 → INA4, Ch4 → INA1.
-    * ![Phase4](Images/Phase4.jpg)
+    <p align="center"><img src="Images/Phase4.jpg" width="300"></p>
 
 This sequence ensures that over time, every input is processed by every amplifier, averaging out mismatches.
 
