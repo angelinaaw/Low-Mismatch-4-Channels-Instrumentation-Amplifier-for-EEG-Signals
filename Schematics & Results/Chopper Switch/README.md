@@ -1,6 +1,6 @@
 # Chopper Switch Progress Log
 
-**Last Updated:** 16th August
+**Last Updated:** 26th January
 
 ---
 
@@ -30,12 +30,12 @@ The chopper switch is implemented to reduce low-frequency (1/f) noise and input 
 ## 3. Schematic Design
 
 <p align="center">
-  <img src="../Images/CSchematic.jpg" alt="Chopper Switch Schematic" width="800"/>
+  <img src="../../Images/CSchematic.jpg" alt="Chopper Switch Schematic" width="800"/>
 </p>
 <h4 align="center">Figure 1. Full Chopper Switch Schematic</h4>
 
 <p align="center">
-  <img src="../Images/CSC_Schematic.jpg" alt="Chopper C Schematic" width="600"/>
+  <img src="../../Images/CSC_Schematic.jpg" alt="Chopper C Schematic" width="600"/>
 </p>
 <h4 align="center">Figure 2. Detail: Chopper Switch Stage C Schematic</h4>
 
@@ -47,7 +47,7 @@ The chopper switch is implemented to reduce low-frequency (1/f) noise and input 
 Simulation results for the first stage of the chopper circuit operating at 4 kHz.
 
 <p align="center">
-  <img src="../Images/CSA_Tb.jpg" alt="CSA Simulation" width="700"/>
+  <img src="../../Images/CSA_Tb.jpg" alt="CSA Simulation" width="700"/>
 </p>
 <h4 align="center">Figure 3. Chopper Switch A Simulation</h4>
 
@@ -55,7 +55,7 @@ Simulation results for the first stage of the chopper circuit operating at 4 kHz
 Simulation results for the second stage of the chopper circuit operating at 2 kHz.
 
 <p align="center">
-  <img src="../Images/CSB_TB.jpg" alt="CSB Simulation" width="700"/>
+  <img src="../../Images/CSB_TB.jpg" alt="CSB Simulation" width="700"/>
 </p>
 <h4 align="center">Figure 4. Chopper Switch B Simulation</h4>
 
@@ -65,14 +65,14 @@ Detailed analysis of the third stage, including testbench setup and transient re
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="../Images/CSC_Tb.jpg" alt="CSC Testbench" width="400"/><br><b>Figure 5. Testbench Setup</b></td>
-      <td align="center"><img src="../Images/CSC_Tb_Res2.jpg" alt="CSC Sim 2" width="400"/><br><b>Figure 6. Transient Zoom</b></td>
+      <td align="center"><img src="../../Images/CSC_Tb.jpg" alt="CSC Testbench" width="400"/><br><b>Figure 5. Testbench Setup</b></td>
+      <td align="center"><img src="../../Images/CSC_Tb_Res2.jpg" alt="CSC Sim 2" width="400"/><br><b>Figure 6. Transient Zoom</b></td>
     </tr>
   </table>
 </div>
 
 <p align="center">
-  <img src="../Images/CSC_Tb_Res1.jpg" alt="CSC Result Full" width="700"/>
+  <img src="../../Images/CSC_Tb_Res1.jpg" alt="CSC Result Full" width="700"/>
 </p>
 <h4 align="center">Figure 7. Chopper Switch C Full Simulation Response</h4>
 
@@ -83,11 +83,11 @@ Detailed analysis of the third stage, including testbench setup and transient re
 This section details the parametric verification of the switch components. The analysis focuses on the specific characteristics of the MOSFETs used, ensuring they meet the stringent requirements for On-Resistance (Ron) and Off-State Leakage Current to prevent signal attenuation.
 
 <p align="center">
-  <img src="../Images/CS_Spec.jpg" alt="Spec Summary" width="800"/>
+  <img src="../../Images/CS_Spec.jpg" alt="Spec Summary" width="800"/>
 </p>
 <h4 align="center">Figure 8. Simulation Measurement Logs for Leakage, Ron, and Timing</h4>
 
-**Key Points of Analysis :**
+**Key Points of Analysis:**
 
 * **Off-State Leakage Current (Left Graph):**
   The leakage current fluctuates between approximately 3.5 pA and 4 pA depending on the VAB voltage. This is significantly lower than the 0.1 µA (< 0.001 µA) safety limit, ensuring minimal charge loss during the off-state.
