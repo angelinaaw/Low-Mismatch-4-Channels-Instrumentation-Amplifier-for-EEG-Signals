@@ -17,120 +17,65 @@ For the layout implementation, two GDS versions are provided:
 
 ## 2. Schematic Design
 
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/IntegratedCS.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 1.</b><br>
-  Integrated Schematic of 3 Switches<br><br>
-  <i>Three-stage chopper switch integration schematic.</i>
-</td>
-</tr>
-</table>
+### Schematic Design of 3 Chopper Switches Integration
 
----
+<p align="center">
+  <img src="../Images/IntegratedCS.jpg" alt="IntegratedCS" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 1. Integrated Schematic of 3 Switches</h4>
 
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/FullSchem.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 2.</b><br>
-  Integrated Schematic of the System<br><br>
-  <i>Complete integrated schematic of the EEG front-end system.</i>
-</td>
-</tr>
-</table>
+### Schematic Design of Top Integrated Circuit
+<p align="center">
+  <img src="../Images/FullSchem.jpg" alt="LPF_EXT_REV" width="900"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 2. Integrated Schematic of the System</h4>
 
----
-
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/Ext_Cap1.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 3.</b><br>
-  External Capacitor Circuit (Off-Chip)<br><br>
-  <i>Configuration for output stabilization.</i>
-</td>
-</tr>
-</table>
+### Schematic Design of External Capacitor (Off-Chip)
+<p align="center">
+  <img src="../Images/Ext_Cap1.jpg" alt="LPF_EXT_REV" width="600"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 3. External Capacitor Circuit for Outputs (off-chip)</h4>
 
 ---
 
 ## 3. Simulation Results
 
-### A. Integrated Chopper Switches Performance
+### A. Simulations of Top Integration Level Chopper Switches
 
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/IntegratedCS_Tb1.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 4.</b><br>
-  Chopper Switches Integrated TB (1)<br><br>
-  <i>Testbench validation part 1.</i>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="../Images/IntegratedCS_Tb1.jpg" alt="LPF_EXT_REV" width="600"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 4. Chopper Switches Integrated TB (1)</h4>
+<p align="center">
+  <img src="../Images/IntegratedCS_Tb2.jpg" alt="LPF_EXT_REV" width="300"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 5. Chopper Switches Integrated TB (1)</h4>
 
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/IntegratedCS_Tb2.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 5.</b><br>
-  Chopper Switches Integrated TB (2)<br><br>
-  <i>Testbench validation part 2.</i>
-</td>
-</tr>
-</table>
-
-### B. Full Circuit Integration
-
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/FullSchem_Tb1.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 6.</b><br>
-  Output Signals per-Stage (1)<br><br>
-  <i>System simulation showing signal progression through initial stages.</i>
-</td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/FullSchem_Tb2.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 7.</b><br>
-  Output Signals per-Stage (2)<br><br>
-  <i>System simulation showing signal progression through final stages.</i>
-</td>
-</tr>
-</table>
+### B. Simulations of Top Integration Level Full Circuit
+<p align="center">
+  <img src="../Images/FullSchem_Tb1.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 6. Output Signals per-Stage in Top Integration (1)</h4>
+<p align="center">
+  <img src="../Images/FullSchem_Tb2.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 7. Output Signals per-Stage in Top Integration (2)</h4>
+<p align="center">
+  <img src="../Images/FullSchem_Tb3.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 8. Simulation Prefrontal Cortex Probes (Input and Output)</h4>
 
 ### C. Prefrontal Cortex Signal Analysis
 
-<table width="100%">
-<tr>
-<td width="60%" align="center">
-  <img src="../Images/FullSchem_Tb3.jpg" width="100%"/>
-</td>
-<td width="40%" valign="middle">
-  <b>Figure 8.</b><br>
-  Prefrontal Cortex Probes<br><br>
-  <i>Input and output waveforms demonstrating the complete signal processing chain.</i>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="../Images/FullSchem_Tb1.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 6. Output Signals per-Stage in Top Integration (1)</h4>
+<p align="center">
+  <img src="../Images/FullSchem_Tb2.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 7. Output Signals per-Stage in Top Integration (2)</h4>
+<p align="center">
+  <img src="../Images/FullSchem_Tb3.jpg" alt="LPF_EXT_REV" width="700"/>
+</p>
+<h4 align="center" style="font-size:16px;">Figure 8. Simulation Prefrontal Cortex Probes (Input and Output)</h4>
