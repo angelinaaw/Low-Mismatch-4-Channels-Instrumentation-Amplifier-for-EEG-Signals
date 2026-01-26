@@ -1,6 +1,6 @@
 # Switched-Cap Low Pass Filter Progress Log
 
-**Last Updated:** 16th August
+**Last Updated:** 26th January
 
 ---
 
@@ -28,7 +28,7 @@ The switched-capacitor low-pass filter is used to remove high-frequency componen
 On-chip implementation of the switched-capacitor low-pass filter.
 
 <p align="center">
-  <img src="../Images/LPF_Rev.jpg" alt="LPF_Rev" width="800"/>
+  <img src="../../Images/LPF_Rev.jpg" alt="LPF_Rev" width="800"/>
 </p>
 <h4 align="center">Figure 1(a). LPF Schematic Inside Chip</h4>
 
@@ -36,7 +36,7 @@ On-chip implementation of the switched-capacitor low-pass filter.
 Implementation with external ceramic capacitor and inductor for enhanced filtering.
 
 <p align="center">
-  <img src="../Images/LPF_EXT_REV.jpg" alt="LPF_EXT_REV" width="800"/>
+  <img src="../../Images/LPF_EXT_REV.jpg" alt="LPF_EXT_REV" width="800"/>
 </p>
 <h4 align="center">Figure 1(b). LPF Schematic With External Ceramic Capacitor and Inductor</h4>
 
@@ -48,7 +48,7 @@ Implementation with external ceramic capacitor and inductor for enhanced filteri
 Configuration and setup for the switched-capacitor low-pass filter simulation.
 
 <p align="center">
-  <img src="../Images/TB_LPF1.jpg" alt="TB_LPF1" width="800"/>
+  <img src="../../Images/TB_LPF1.jpg" alt="TB_LPF1" width="800"/>
 </p>
 <h4 align="center">Figure 2. Switched-Cap Low Pass Filter Testbench</h4>
 
@@ -56,15 +56,15 @@ Configuration and setup for the switched-capacitor low-pass filter simulation.
 Comprehensive noise characterization across frequency spectrum.
 
 <p align="center">
-  <img src="../Images/TB_LPF2.jpg" alt="TB_LPF2" width="800"/>
+  <img src="../../Images/TB_LPF2.jpg" alt="TB_LPF2" width="800"/>
 </p>
 <h4 align="center">Figure 3. Noise Analysis (1) Result</h4>
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="../Images/TB_LPF3.jpg" alt="TB_LPF3" width="400"/><br><b>Figure 4. Noise Analysis (2) Result</b></td>
-      <td align="center"><img src="../Images/TB_LPF4.jpg" alt="TB_LPF4" width="400"/><br><b>Figure 5. Noise Analysis (3) Result</b></td>
+      <td align="center"><img src="../../Images/TB_LPF3.jpg" alt="TB_LPF3" width="400"/><br><b>Figure 4. Noise Analysis (2) Result</b></td>
+      <td align="center"><img src="../../Images/TB_LPF4.jpg" alt="TB_LPF4" width="400"/><br><b>Figure 5. Noise Analysis (3) Result</b></td>
     </tr>
   </table>
 </div>
@@ -77,9 +77,9 @@ Comprehensive noise characterization across frequency spectrum.
 
 | **Parameter** | **Achieved Value** | **Unit** | **Status** |
 | :--- | :---: | :---: | :---: |
-| **Cutoff Frequency (f<sub>c</sub>)** | <250 | Hz | Pass |
+| **Cutoff Frequency (f<sub>c</sub>)** | 100 | Hz | Pass |
 | **Clock Frequency (f<sub>clk</sub>)** | 4 | kHz | Pass |
 
 </div>
 
-**Note:** Capacitors have the size of 1u x 1u (m = 3)
+**Note:** Capacitors have the size of 10u x 10u (m = 3)
