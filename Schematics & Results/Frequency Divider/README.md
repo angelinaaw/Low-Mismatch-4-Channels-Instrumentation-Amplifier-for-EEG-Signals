@@ -119,17 +119,3 @@ endmodule
 | **Chopper C Operating Frequency** | 1 | kHz |
 
 </div>
-
----
-
-## 7. Layout of Designed Clock Divider
-
-<p align="center">
-  <img src="../../Images/FreqDivLayout.jpg" alt="FreqDivLayout" width="700"/>
-</p>
-<h4 align="center">Figure 2(a). Frequency Divider Layout</h4>
-
-<p align="center">
-  <img src="../../Images/FD_Ly.jpg" alt="FD_Ly" width="700"/>
-</p>
-<h4 align="center">Figure 2(b). Frequency Divider Layout (Full)</h4>
