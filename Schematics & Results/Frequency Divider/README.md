@@ -1,6 +1,6 @@
 # Frequency Divider Progress Log
 
-**Last Updated:** 27th August
+**Last Updated:** 26th January
 
 ---
 
@@ -95,12 +95,12 @@ endmodule
 ## 5. RTL Simulation Result
 
 <p align="center">
-  <img src="../Images/FreqDiv.jpg" alt="FreqDiv" width="700"/>
+  <img src="../../Images/FreqDiv.jpg" alt="FreqDiv" width="700"/>
 </p>
 <h4 align="center">Figure 1(a). Frequency Divider Testbench Result on OpenLane</h4>
 
 <p align="center">
-  <img src="../Images/FD_Itg.jpg" alt="FD_Itg" width="700"/>
+  <img src="../../Images/FD_Itg.jpg" alt="FD_Itg" width="700"/>
 </p>
 <h4 align="center">Figure 1(b). Frequency Divider Testbench Result on NGSPICE</h4>
 
@@ -125,11 +125,11 @@ endmodule
 ## 7. Layout of Designed Clock Divider
 
 <p align="center">
-  <img src="../Images/FreqDivLayout.jpg" alt="FreqDivLayout" width="700"/>
+  <img src="../../Images/FreqDivLayout.jpg" alt="FreqDivLayout" width="700"/>
 </p>
 <h4 align="center">Figure 2(a). Frequency Divider Layout</h4>
 
 <p align="center">
-  <img src="../Images/FD_Ly.jpg" alt="FD_Ly" width="700"/>
+  <img src="../../Images/FD_Ly.jpg" alt="FD_Ly" width="700"/>
 </p>
 <h4 align="center">Figure 2(b). Frequency Divider Layout (Full)</h4>
