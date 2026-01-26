@@ -1,6 +1,6 @@
 # Instrumentation Amplifier Progress Log
 
-**Last Updated:** 16th August
+**Last Updated:** 26th January
 
 ---
 
@@ -31,7 +31,7 @@ An open-loop amplifier is used to provide high gain for low-amplitude EEG signal
 ## 3. Schematic Design
 
 <p align="center">
-  <img src="../Images/SCHEM_INA.jpg" alt="SCHEM_INA" width="800"/>
+  <img src="../../Images/SCHEM_INA.jpg" alt="SCHEM_INA" width="800"/>
 </p>
 <h4 align="center">Figure 1. Individual Instrumentation Amplifier Schematic</h4>
 
@@ -43,7 +43,7 @@ An open-loop amplifier is used to provide high gain for low-amplitude EEG signal
 Configuration and setup for the instrumentation amplifier simulation.
 
 <p align="center">
-  <img src="../Images/TSB_INA1.jpg" alt="TSB_INA1" width="800"/>
+  <img src="../../Images/TSB_INA1.jpg" alt="TSB_INA1" width="800"/>
 </p>
 <h4 align="center">Figure 2. Instrumentation Amplifier Testbench</h4>
 
@@ -51,7 +51,7 @@ Configuration and setup for the instrumentation amplifier simulation.
 Open-loop gain and frequency response characterization.
 
 <p align="center">
-  <img src="../Images/TSB_INA2.jpg" alt="TSB_INA2" width="800"/>
+  <img src="../../Images/TSB_INA2.jpg" alt="TSB_INA2" width="800"/>
 </p>
 <h4 align="center">Figure 3. Gain Testbench Result</h4>
 
@@ -59,7 +59,7 @@ Open-loop gain and frequency response characterization.
 CMRR performance analysis across frequency range.
 
 <p align="center">
-  <img src="../Images/TSB_INA3.jpg" alt="TSB_INA3" width="800"/>
+  <img src="../../Images/TSB_INA3.jpg" alt="TSB_INA3" width="800"/>
 </p>
 <h4 align="center">Figure 4. CMRR Testbench Result</h4>
 
