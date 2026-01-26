@@ -20,7 +20,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/IntegratedCS.jpg" width="100%"/>
+  <img src="../Images/IntegratedCS.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 1.</b><br>
@@ -35,7 +35,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/FullSchem.jpg" width="100%"/>
+  <img src="../Images/FullSchem.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 2.</b><br>
@@ -50,7 +50,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/Ext_Cap1.jpg" width="100%"/>
+  <img src="../Images/Ext_Cap1.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 3.</b><br>
@@ -69,7 +69,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/IntegratedCS_Tb1.jpg" width="100%"/>
+  <img src="../Images/IntegratedCS_Tb1.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 4.</b><br>
@@ -82,7 +82,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/IntegratedCS_Tb2.jpg" width="100%"/>
+  <img src="../Images/IntegratedCS_Tb2.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 5.</b><br>
@@ -97,7 +97,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/FullSchem_Tb1.jpg" width="100%"/>
+  <img src="../Images/FullSchem_Tb1.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 6.</b><br>
@@ -110,7 +110,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/FullSchem_Tb2.jpg" width="100%"/>
+  <img src="../Images/FullSchem_Tb2.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 7.</b><br>
@@ -125,7 +125,7 @@ For the layout implementation, two GDS versions are provided:
 <table width="100%">
 <tr>
 <td width="60%" align="center">
-  <img src="../../Images/FullSchem_Tb3.jpg" width="100%"/>
+  <img src="../Images/FullSchem_Tb3.jpg" width="100%"/>
 </td>
 <td width="40%" valign="middle">
   <b>Figure 8.</b><br>
