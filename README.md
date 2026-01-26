@@ -223,15 +223,15 @@ An optional unity-gain analog buffer is inserted at the output to drive external
 
 | **Pin** | **Name** | **Type** | **Direction** | **Description** |
 | :---: | :--- | :---: | :---: | :--- |
-| 1 | AVDD | Power | Bidir | Analog Supply Voltage (3.3V) |
-| 2 | AVSS | Ground | Bidir | Analog Ground |
-| 3 | VDD | Power | Bidir | Digital Supply Voltage (1.2V/5V) |
-| 4 | VSS | Ground | Bidir | Digital Ground |
+| 1 | AVDD | Power | Bidirectional | Analog Supply Voltage (3.3V) |
+| 2 | AVSS | Ground | Bidirectional | Analog Ground |
+| 3 | VDD | Power | Bidirectional | Digital Supply Voltage (1.2V/5V) |
+| 4 | VSS | Ground | Bidirectional | Digital Ground |
 | 5-12 | INxP/N | Analog | Input | Differential Analog Inputs (Ch 1-4) |
 | 13-20 | OUTxP/N | Analog | Output | Differential Analog Outputs (Ch 1-4) |
-| 21 | VBIAS | Analog | Bidir | Bias Voltage/Current Reference |
+| 21 | VBIAS | Analog | Bidirectional | Bias Voltage/Current Reference |
 | 22 | CLK | Digital | Input | Master Clock Input |
-| 23 | VCM | Analog | Bidir | Common Mode Voltage Reference |
+| 23 | VCM | Analog | Bidirectional | Common Mode Voltage Reference |
 
 </div>
 
