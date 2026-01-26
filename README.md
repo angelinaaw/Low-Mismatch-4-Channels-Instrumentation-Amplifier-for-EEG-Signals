@@ -82,7 +82,7 @@ The chopper switch is implemented to reduce low-frequency (1/f) noise and input 
 
 <br>
 
-[![Progress Log](https://img.shields.io/badge/Progress_Log-Chopper%20Switch-007EC6?style=for-the-badge&logo=github&logoColor=white)](Schematics%20&%20Results/Chopper%20Switch)
+[![Chopper Switch](https://img.shields.io/badge/Progress_Log-Chopper%20Switch-007EC6?style=for-the-badge&logo=github&logoColor=white)](Components%20Progress%20Log/Chopper%20Switch)
 
 ---
 
