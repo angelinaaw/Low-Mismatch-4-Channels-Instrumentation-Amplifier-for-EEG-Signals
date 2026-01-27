@@ -1,6 +1,57 @@
 # Low-Mismatch 4-Channel Instrumentation Amplifier for EEG Signals
 
-**By [Team Name] Team**
+<div align="center">
+
+### ✨ The ChipiYZ Team ✨
+
+<table>
+  <tr>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_ABDILLAH_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Abdillah Aziz</b>
+      <br />
+      <sub>💻 Role</sub>
+    </td>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_ALETA_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Aleta Edna</b>
+      <br />
+      <sub>🎨 Role</sub>
+    </td>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_ANGELINA_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Angelina Wahyuni</b>
+      <br />
+      <sub>🔧 Role</sub>
+    </td>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_RAFI_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Rafi Ihsan</b>
+      <br />
+      <sub>🐛 Role</sub>
+    </td>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_SAPUTRA_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Saputra Yudika</b>
+      <br />
+      <sub>🚀 Role</sub>
+    </td>
+    <td align="center" width="16.66%">
+      <img src="LINK_GAMBAR_INFALL_DISINI" width="100px;" alt=""/>
+      <br />
+      <b>Infall Syafalni</b>
+      <br />
+      <sub>☕ Role</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
