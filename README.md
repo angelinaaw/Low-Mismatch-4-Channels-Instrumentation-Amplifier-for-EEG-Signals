@@ -2,51 +2,51 @@
 
 <div align="center">
 
-### ✨ The ChipiYZ Team ✨
+### By ChipiYZ Team
 
 <table>
   <tr>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_ABDILLAH_DISINI" width="100px;" alt=""/>
+      <img src="Images/Spongebob.jpeg" width="100px;" alt=""/>
       <br />
       <b>Abdillah Aziz</b>
       <br />
-      <sub>💻 Role</sub>
+      <sub> Leader</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_ALETA_DISINI" width="100px;" alt=""/>
+      <img src="Images/Sandy.jpeg" width="100px;" alt=""/>
       <br />
-      <b>Aleta Edna</b>
+      <b>Aleta Edna Jessalyn</b>
       <br />
-      <sub>🎨 Role</sub>
+      <sub> Member</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_ANGELINA_DISINI" width="100px;" alt=""/>
+      <img src="Images/Garry.jpeg" width="100px;" alt=""/>
       <br />
-      <b>Angelina Wahyuni</b>
+      <b>Angelina Wahyuni Selva</b>
       <br />
-      <sub>🔧 Role</sub>
+      <sub> Member</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_RAFI_DISINI" width="100px;" alt=""/>
+      <img src="Images/Patrick.jpeg" width="100px;" alt=""/>
       <br />
-      <b>Rafi Ihsan</b>
+      <b>Rafi Ihsan Alfathin</b>
       <br />
-      <sub>🐛 Role</sub>
+      <sub> Member</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_SAPUTRA_DISINI" width="100px;" alt=""/>
+      <img src="Images/Squidward.jpeg" width="100px;" alt=""/>
       <br />
-      <b>Saputra Yudika</b>
+      <b>Saputra Yudika Marpaung</b>
       <br />
-      <sub>🚀 Role</sub>
+      <sub> Member</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="LINK_GAMBAR_INFALL_DISINI" width="100px;" alt=""/>
+      <img src="Images/Plankton.jpeg" width="100px;" alt=""/>
       <br />
       <b>Infall Syafalni</b>
       <br />
-      <sub>☕ Role</sub>
+      <sub> Supervisor</sub>
     </td>
   </tr>
 </table>
