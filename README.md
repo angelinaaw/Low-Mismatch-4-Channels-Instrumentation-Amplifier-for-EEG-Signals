@@ -248,25 +248,28 @@ The system amplifies 4-channel biopotential signals. The circuit uses a **Three-
 
 * **Phase 1 (CSa Only):** Direct signal path.
     * Ch1 → INA1, Ch2 → INA2, etc.
-    <p align="center"><img src="Images/Phase1.jpg" width="300"></p>
+    <p align="center"><img src="Images/Phase1.jpg" width="1000"></p>
 
 * **Phase 2 (CSb ON):** Swap adjacent pairs.
     * Ch1 → INA2, Ch2 → INA1.
-    <p align="center"><img src="Images/Phase2.jpg" width="300"></p>
+    <p align="center"><img src="Images/Phase2.jpg" width="1000"></p>
 
 * **Phase 3 (CSc ON, CSb OFF):** Swap alternate pairs.
     * Ch1 → INA3, Ch3 → INA1.
-    <p align="center"><img src="Images/Phase3.jpg" width="300"></p>
+    <p align="center"><img src="Images/Phase3.jpg" width="1000"></p>
 
 * **Phase 4 (CSb & CSc ON):** Cross-pair swap.
     * Ch1 → INA4, Ch4 → INA1.
-    <p align="center"><img src="Images/Phase4.jpg" width="300"></p>
+    <p align="center"><img src="Images/Phase4.jpg" width="1000"></p>
 
 This sequence ensures that over time, every input is processed by every amplifier, averaging out mismatches.
 
 ---
 
 ## Progress Tracksheet
+
+To ensure efficient collaboration and transparent progress tracking, the team maintains a live status log. This document records daily task updates, simulation milestones, and tapeout checklists.
+
 [![Tracksheet](https://img.shields.io/badge/Google%20Sheets-Team%20Tracksheet-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1Lt7VIuRgg6ifpHQ2P5A1QMIH-cknrxcGIBxvP4BVC10/edit?gid=0#gid=0)
 
 ---
