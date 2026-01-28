@@ -281,8 +281,9 @@ An optional unity-gain analog buffer is inserted at the output to drive external
 | 5-12 | INxP/N | Analog | Input | Differential Analog Inputs (Ch 1-4) |
 | 13-20 | OUTxP/N | Analog | Output | Differential Analog Outputs (Ch 1-4) |
 | 21 | VBIAS | Analog | Bidirectional | Bias Voltage/Current Reference |
-| 22 | CLK | Digital | Input | Master Clock Input |
-| 23 | VCM | Analog | Bidirectional | Common Mode Voltage Reference |
+| 22 | VCM | Analog | Bidirectional | Common Mode Voltage Reference |
+| 23 | CLK | Digital | Input | Master Clock Input |
+| 24 | RST | Digital | Input | Reset for Frequency Divider & Clock LPF, CS |
 
 </div>
 
