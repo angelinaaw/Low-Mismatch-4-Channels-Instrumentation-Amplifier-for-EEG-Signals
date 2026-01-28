@@ -46,7 +46,7 @@
       <br />
       <b>Infall Syafalni</b>
       <br />
-      <sub> Supervisor</sub>
+      <sub> Mentor</sub>
     </td>
   </tr>
 </table>
