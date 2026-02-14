@@ -7,13 +7,6 @@
 <table>
   <tr>
     <td align="center" width="16.66%">
-      <img src="Images/Spongebob.jpeg" width="100px;" alt=""/>
-      <br />
-      <b>Abdillah Aziz</b>
-      <br />
-      <sub> Leader</sub>
-    </td>
-    <td align="center" width="16.66%">
       <img src="Images/Sandy.jpeg" width="100px;" alt=""/>
       <br />
       <b>Aleta Edna Jessalyn</b>
