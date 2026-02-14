@@ -35,7 +35,7 @@
       <sub> Member</sub>
     </td>
     <td align="center" width="16.66%">
-      <img src="Images/Plankton.jpeg" width="100px;" alt=""/>
+      <img src="Images/Spongebob.jpeg" width="100px;" alt=""/>
       <br />
       <b>Infall Syafalni</b>
       <br />
